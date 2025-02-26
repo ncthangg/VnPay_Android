@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/imgDrink"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvDrinkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên đồ uống"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tvDrinkDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mô tả đồ uống"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/tvDrinkPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đơn giá: 100.000 VNĐ"
+            android:textColor="#FF5722"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

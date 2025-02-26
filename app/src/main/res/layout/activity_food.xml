@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Menu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFoods"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="40dp"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Order"
+        android:layout_margin="16dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return Home"
+        android:layout_margin="16dp"
+        android:textColor="#FFFFFF"/>
+
+
+</LinearLayout>
