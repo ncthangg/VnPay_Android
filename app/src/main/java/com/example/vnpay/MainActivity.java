@@ -153,15 +153,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    protected void onNewIntent(Intent intent) {
-        super.onNewIntent(intent);
-        Uri data = intent.getData();
-        if (data != null && "myapp".equals(data.getScheme())) {
-            // Xử lý kết quả từ VNPay
-            Toast.makeText(this, "Thanh toán hoàn tất!", Toast.LENGTH_SHORT).show();
-        }
-    }
+//    @Override
+//    protected void onNewIntent(Intent intent) {
+//        super.onNewIntent(intent);
+//        Uri data = intent.getData();
+//        if (data != null && "myapp".equals(data.getScheme())) {
+//            // Xử lý kết quả từ VNPay
+//            Toast.makeText(this, "Thanh toán hoàn tất!", Toast.LENGTH_SHORT).show();
+//        }
+//    }
 
 
     //==============================================================
