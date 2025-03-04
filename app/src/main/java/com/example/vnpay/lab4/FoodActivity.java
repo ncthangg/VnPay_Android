@@ -39,7 +39,7 @@ public class FoodActivity extends AppCompatActivity {
         foodList.add(new Food("Cánh gà chiên nước mắm", "Vị giác bùng nổ", R.drawable.canh_ga_chien_nuoc_mam, 120000));
         foodList.add(new Food("Heo quay", "Giòn đến miếng cuối cùng", R.drawable.heo_quay, 220000));
         foodList.add(new Food("Rau muống xào tỏi", "Hương vị của miền quê", R.drawable.rau_muong_xao_toi, 60000));
-        foodList.add(new Food("Vịt rang muối", "Muối ngon hơn vịt", R.drawable.vit_rang_muoi, 1150000));
+        foodList.add(new Food("Vịt rang muối", "Muối ngon hơn vịt", R.drawable.vit_rang_muoi, 115000));
         foodList.add(new Food("Phở Hà Nội", "Hà Nội không vội được đâu", R.drawable.pho_bo, 30000));
         foodList.add(new Food("Bún Bò Huế", "Chuẩn vị Huế", R.drawable.bun_bo_hue, 35000));
 

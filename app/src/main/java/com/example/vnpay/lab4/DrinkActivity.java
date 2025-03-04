@@ -35,7 +35,7 @@ public class DrinkActivity extends AppCompatActivity {
         drinkList = new ArrayList<>();
         drinkList.add(new Drink("Heineken", "Không say không về", R.drawable.heineken, 50000));
         drinkList.add(new Drink("Pepsi", "Đã quá pepsi ơi", R.drawable.pepsi, 20000));
-        drinkList.add(new Drink("Bia Sài Gòn", "Sài gòn têy", R.drawable.saigon, 300000));
+        drinkList.add(new Drink("Bia Sài Gòn", "Sài gòn hoa lệ", R.drawable.saigon, 30000));
         drinkList.add(new Drink("Bia Tiger", "Chúa tể rừng xanh", R.drawable.biatiger, 35000));
         drinkList.add(new Drink("Cocacola", "Cô ca cô la", R.drawable.coca, 15000));
         drinkList.add(new Drink("Bia 333", "Uống xong la", R.drawable.bia333, 18000));
